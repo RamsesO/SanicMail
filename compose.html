@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+		<a href="home.html" class="navbar-left logo"><img src="assets/sanic.png"></a>
+		<a class="navbar-brand" href="home.html">SanicMail</a>
+		<button type="button" class="navbar-toggler" data-toggle="collapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav mr-auto">
+				<a class="nav-item nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link active" href="mail.html">Mail</a>
+			</div>
+			<div class="navbar-nav navbar-right">
+				<a class="nav-item nav-link" href="login.html">Logout</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row top-buffer-lg"></div>
+		<div class="row">
+
+			<div class="col-sm-9 ml-md-auto">
+				<h2>Compose New Message</h2>
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="list-group">
+					<a href="mail.html" class="list-group-item list-group-item-action">Inbox
+					<span class="badge badge-secondary float-right">2</span></a>
+					<a href="trash.html" class="list-group-item list-group-item-action">Trash
+					<span class="badge badge-secondary float-right">2</span></a>
+					<a href="spam.html" class="list-group-item list-group-item-action">Spam
+					<span class="badge badge-secondary float-right">1</span></a>
+					<a href="#" class="list-group-item active">Compose New Message</a>
+				</div>
+			</div>
+			<div class="col-sm">
+				<form>
+					<div class="form-group">
+						<label for="recipients">Recipient</label>
+						<select class="form-control" id="recipients">
+						<label>Recipient</label>
+						<option value="">-- Select Recipient --</option>
+						<option value="1">Snoop Dogg</option>
+						<option value="2">Bob Ross</option>
+						<option value="3">RNGesus</option>
+					</select>
+					</div>
+					
+					<div class="form-group">
+						<label for="inputTitle">Title</label>
+						<input type="title" class="form-control" id="inputTitle" placeholder="Enter message title">
+					</div>
+					<div class="form-group">
+						<label for="inputBody">Body</label>
+						<input type="title" class="form-control" id="inputBody" placeholder="Enter message body">
+					</div>
+				</form>
+				<a href="successcompose.html"><button type="button" class="btn btn-outline-primary left-buffer-sm">Send Message</button></a>
+			</div>
+
+		</div>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.top-buffer-sm{
+	margin-top:.25em;
+}
+.top-buffer-lg{
+	margin-top:3em;
+}
+.bottom-buffer-sm{
+	margin-bottom:1.5px;
+}
+.bottom-buffer-md{
+	margin-bottom:2em;
+}
+.left-buffer-sm{
+	margin-right:.25em;
+}
+.right-buffer-md{
+	margin-right:.5em;
+}
+.left-buffer-md{
+	margin-left:.5em;
+}
+.background-color-blue{
+	background-color:#ADD8E6;
+}
+.logo{
+	text-align:center;
+}
+.logo img{
+	width:3.5em;
+}
+img.resize {
+  max-width:30%;
+  max-height:30%;
+}
+.img-float{
+	float:left;
+}
+.img-circle{
+	border-radius:50%;
+}
+.img-responsive{
+	display: block;
+	height: auto;
+	max-width:100%;
+}
